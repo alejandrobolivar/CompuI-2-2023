@@ -1,1 +1,1 @@
-# Computaci-n-I-1-2023
+# Compu-I-1-2023
