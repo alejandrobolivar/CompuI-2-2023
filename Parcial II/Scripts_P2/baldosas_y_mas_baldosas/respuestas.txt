@@ -1,0 +1,12 @@
+N° cajas= 12 Monto= 144.00
+N° cajas= 1 Monto= 10.30
+N° cajas= 1 Monto= 15.90
+Monto Total= 170.20
+----------------------------------------
+N° cajas= 1 Monto= 10.30
+N° cajas= 1 Monto= 20.30
+N° cajas= 1 Monto= 36.20
+N° cajas= 1 Monto= 25.60
+Monto Total= 92.40
+----------------------------------------
+El número de orden con menor cantidad de esp. es: 21102010

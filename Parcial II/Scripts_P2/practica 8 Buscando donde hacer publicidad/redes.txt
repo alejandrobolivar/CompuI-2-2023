@@ -1,0 +1,10 @@
+9
+sergio,M,25,1
+rosa,F,30,2
+isabella,F,20,4
+michelle,F,18,1
+alfonzo,M,23,3
+pedro,M,19,4
+josefina,F,35,3
+aurelio,M,40,2
+yolanda,F,15,1

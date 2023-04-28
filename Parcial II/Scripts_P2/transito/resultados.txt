@@ -1,0 +1,13 @@
+Maria No es infractor
+Pedro es infractor del Turno 1 y pagará una multa de $0.78
+Juan No es infractor
+Pablo No es infractor
+Moises es infractor del Turno 1 y pagará una multa de $75.78
+Luis es infractor del Turno 1 y pagará una multa de $100.78
+Paola es infractor del Turno 1 y pagará una multa de $25.78
+Marta es infractor del Turno 1 y pagará una multa de $100.78
+Nohemi es infractor del Turno 1 y pagará una multa de $38.28
+Saul No es infractor
+Raul es  infractor del Turno 2 y pagará una multa de $31.83
+Felipe No es infractor
+Raquel es infractor del Turno 1 y pagará una multa de $15.78

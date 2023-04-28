@@ -1,0 +1,4 @@
+NOMBRE DEL CLIENTE    CI
+luis                4326785
+pedro                6345369
+juan                12786590

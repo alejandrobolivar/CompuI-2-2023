@@ -1,0 +1,10 @@
+rafael,2,19,1
+alejandro,2,24,1
+juan,2,31,2
+ana,1,17,3
+luis,2,44,0
+maria,1,21,1
+carlos,2,23,2
+teresa,1,29,3
+jesus,2,35,1
+edith,1,16,2

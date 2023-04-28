@@ -1,0 +1,12 @@
+1/09/2010, sudafrica, brasil, 2, 5
+3/09/2010, argentina, francia, 4, 1
+5/09/2010, uruguay, brasil, 4, 0
+7/09/2010, africa , espa�a, 5, 5
+9/09/2010, japon, dinamarca, 1, 7
+11/09/2010, inglaterra, alemania, 2, 2
+13/09/2010, paraguay, grecia, 6, 1
+14/09/2010, argelia, camerun, 4, 8
+15/09/2010, italia, chile, 1, 1
+16/09/2010, australia, nigeria, 4, 9
+18/09/2010, niegeria, eslovaquia, 0, 0
+22/09/2010, serbia, suiza, 7, 7

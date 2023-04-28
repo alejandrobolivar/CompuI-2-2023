@@ -1,0 +1,4 @@
+NOMBRE DEL CLIENTE    CI
+jose               13456765
+maria               18765489
+carlos               4523455

@@ -1,0 +1,9 @@
+8
+emma,10,10,10
+gwen,9,8,7
+blaze,5,5,5
+hector,10,8,10
+kira,8,8,8
+golleb,9,9,9
+jeimy,10,8,8
+fox,1,2,3

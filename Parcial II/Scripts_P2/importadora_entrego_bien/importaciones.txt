@@ -1,0 +1,6 @@
+nevera, 1, 150
+radio, 1, 25
+lego, 3, 110
+xenical, 2, 200
+plasma 100", 1, 1000
+xbox 360, 1, 500

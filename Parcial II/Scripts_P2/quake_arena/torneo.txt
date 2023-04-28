@@ -1,0 +1,12 @@
+TIRANOS,4
+pepe,18,8
+pablo,25,20
+cristian,20,10
+manuel,11,20
+GENERALES,3
+katy,23,30
+luis,26,20
+luisa,10,20
+PIEDRITA,2
+jose,25,4
+angel,18,12

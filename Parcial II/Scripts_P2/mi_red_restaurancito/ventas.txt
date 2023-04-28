@@ -1,0 +1,8 @@
+mcdonalds,3
+jose,13456765,150,N
+luis,4326785,200,S
+maria,18765489,175,N
+arturos,3
+carlos,4523455,175,N
+pedro,6345369,210,S
+juan,12786590,200,S

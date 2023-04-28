@@ -1,0 +1,6 @@
+Mcgraw Hill, Pedro Perez
+Quimica, T, 2002, 10, 250, 0
+Fisica, T, 2006, 8, 210.15,1
+Pearson, Maria Ramirez
+Electronica, T, 2008, 4, 450,0
+Termodinamica, T, 2005, 7, 300,1
