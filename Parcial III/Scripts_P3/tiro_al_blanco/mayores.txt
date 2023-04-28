@@ -1,0 +1,6 @@
+Marcos P 150
+Carlos G 200
+Anastasia 0
+Pablo R 75
+Porcentaje en el centro: 50.00 %
+Promedio de puntos: 106.25

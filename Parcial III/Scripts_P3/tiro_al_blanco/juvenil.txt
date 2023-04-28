@@ -1,0 +1,5 @@
+Jesus M 200
+Luis O 125
+Maria F 125
+Porcentaje en el centro: 0.00 %
+Promedio de puntos: 150.00

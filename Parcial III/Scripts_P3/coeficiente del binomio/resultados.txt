@@ -1,0 +1,3 @@
+coeficiente 4 para binomio de 7 es: 35.0
+coeficiente 2 para binomio de 3 es: 3.0
+coeficiente 5 para binomio de 9 es: 126.0
