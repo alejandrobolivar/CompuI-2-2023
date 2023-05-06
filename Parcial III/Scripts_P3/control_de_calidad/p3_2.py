@@ -12,7 +12,7 @@ Carbón y Magnesio), en este sentido han decidido automatizar su proceso de
 control de calidad del producto terminado, con el fin de que sea más fácil el
 proceso aprobación o no de un lote de alambrón producido.
 El ingeniero de calidad ha decidido que un día de producción se almacene,
-en el archivo de datos “pruebas.txt”, la información de cada lote de
+en el archivo de datos pruebas.txt, la información de cada lote de
 producción de la siguiente forma:
 Nro del Lote, %Peso Mín de C, %Peso Máx de C, %Peso Medido de C, %Peso Mín de Mg, %Peso Máx de Mg y %Peso Medido de Mg
 
@@ -25,10 +25,10 @@ c) Desarrolle un subprograma que imprima en un archivo (El número del archivo p
 información de un lote de Alambrón producido. 
 
 Programa Principal
-Elabore una aplicación VB de consola que haciendo uso del archivo “pruebas.txt”, determine e imprima:
+Elabore una aplicación VB de consola que haciendo uso del archivo pruebas.txt, determine e imprima:
 a) Para cada lote, dependiendo si el producto es aceptado (cumple con las especificaciones de porcentaje máximo y
 mínimo en peso de Carbón y Magnesio) o no, imprima la información del lote en el archivo de datos
-“aceptados.txt” o “rechazados.txt”.
+aceptados.txt o rechazados.txt.
 b) Para todos los lotes, imprimir por consola, el porcentaje de lotes rechazados en un día.
          
 pruebas.txt

@@ -10,9 +10,9 @@ Elaborado por: Prof. Alejandro Bolívar
 Fecha: 19-04-2022
 
 P R O B L E M A
-Elabore un programa que dado el archivo de datos de nombre “Circunferencias.txt”,
+Elabore un programa que dado el archivo de datos de nombre Circunferencias.txt,
 el cual posee en cada línea, las coordenadas (x, y) del centro y la longitud del
-radio de un par de circunferencias, determine e imprima en el archivo ”Resultados.txt”:
+radio de un par de circunferencias, determine e imprima en el archivo Resultados.txt:
 1- Para cada par de circunferencias, las coordenadas (x, y) del centro y la
 longitud del radio de ambas circunferencias y la relación tangencial que existe
 entre las mismas (1: externa, 2: interna, 3: No tangencial y 4: Son iguales) y
@@ -29,13 +29,13 @@ dos circunferencias, Además debe ser diferente a la circunferencia C2.
 Recuerde: que la distancia entre dos puntos se determina como:
     dist = ((x2-x1)**2+(y2-y1)**2)**0.5
 
-Ejemplo del archivo de datos: “Circunferencias.txt
+Ejemplo del archivo de datos: Circunferencias.txt
 0.00, 0.00, 4.00, 0.00, 2.00, 2.00
 0.00, 0.00, 2.00, 7.00, 0.00, 5.00
 1.00, 2.00, 6.00, 7.00, 2.00 ,4.50
 1.00, 1.00, 2.00, 1.00, 1.00, 2.00
 
-Archivo de salida: “Resultados.txt”
+Archivo de salida: Resultados.txt
 [(0.00, 0.00), 4.00] [(0.00, 2.00), 2.00] 2
 [(7.00, 0.00), 5.00] [(0.00, 0.00), 2.00] 1
 [(1.00, 2.00), 6.00] [(7.00, 2.00), 4.50] 3

@@ -19,7 +19,7 @@ d) Desarrolle un subprograma dados un valor string y tres valores integer, los e
 de un archivo (El número del archivo pasa como parámetro)
 
 Programa Principal
-En el archivo “estadísticas.txt”, se registró para cada país que participará en el mundial 2026
+En el archivo estadísticas.txt, se registró para cada país que participará en el mundial 2026
 los resultados obtenidos durante los últimos N partidos, con la finalidad de poder establecer
 predicciones de su posible actuación en el mundial 2026. En el archivo de datos se tiene una
 primera línea con el Número de países y el Número N de partidos registrados para cada país y en las
@@ -28,7 +28,7 @@ partidos, como se indica a continuación:
 Nombre del País, GFpartido1, GCpartido1, GFpartido2, GCpartido2, … GFpartidoN, GCpartidoN
 Donde: GF=Goles a Favor y GC=Goles en contra
 
-Ejemplo del posible archivo “estadísticas.txt”
+Ejemplo del posible archivo estadísticas.txt
 5 , 3
 Italia ,1 ,1 ,1 ,1 ,2 ,0
 España ,1 ,1 ,5 ,0 ,2 ,0
@@ -37,7 +37,7 @@ Francia ,1 ,1 ,2 ,0 ,0 ,2
 Alemania ,2 ,0 ,2 ,1 ,2 ,1
 
 Desarrolle un programa que usando apropiadamente los subprogramas desarrollados, lea la información del archivo
-“estadísticas.txt”, y determine e imprima a un archivo de nombre “pronostico.txt”, por cada país: nombre, diferencia de goles,
+estadísticas.txt, y determine e imprima a un archivo de nombre pronostico.txt, por cada país: nombre, diferencia de goles,
 puntaje real y puntaje virtual. Adicionalmente debe imprimir por pantalla, el país con más probabilidad de participar en la final
 del mundial Brasil 2014, es decir, el que tenga mayor puntaje virtual.
 

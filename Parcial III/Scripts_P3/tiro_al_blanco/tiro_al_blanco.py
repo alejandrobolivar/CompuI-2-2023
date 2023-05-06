@@ -4,7 +4,7 @@ Elaborado por: Prof. Alejandro Bolívar
 Fecha: 30-04-2022
 
 E S C E N A R I O : C O M P E T E N C I A D E T I R O
-En una competencia de tiro al blanco abierta al público, se almaceno en el archivo de datos “principiantes.txt”, la información de
+En una competencia de tiro al blanco abierta al público, se almaceno en el archivo de datos principiantes.txt, la información de
 un grupo de participantes, donde en cada línea del mismo se registro: nombre del competidos, categoría a la que pertenece (1=
 Juvenil y 2= Mayores), y las coordenadas (X, Y) de los tres disparos realizados hacia la diana, que dependiendo de la categoría al
 que pertenece el competidor tiene radios distintos. La competición se clasifico en dos categorías, Juvenil y Mayores. La diana
@@ -13,8 +13,8 @@ mayores es de 1, 2 y 3. Las puntuaciones del disparo se establece según la zona
 imagen adjunta.
 
 ENUNCIADO
-Elabore una aplicación en VB2010, que dado el archivo “principiantes.txt”, determine e
-imprima en el archivo correspondiente a su categoría (“juvenil.txt” o “mayores.txt”):
+Elabore una aplicación en VB2010, que dado el archivo principiantes.txt, determine e
+imprima en el archivo correspondiente a su categoría (juvenil.txt o mayores.txt):
     
 Para cada Competidor:
 • Nombre del competidor y puntuación obtenida.(acumulado de los tres disparos)

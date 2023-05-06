@@ -15,10 +15,10 @@ Nota:
  Además, recuerde que: 1 Hora = 60 Minutos
 
 PROBLEMA
-En un archivo de datos de nombre “vuelos.txt” se almaceno en cada línea la siguiente informacion de un vuelo realizado
+En un archivo de datos de nombre vuelos.txt se almaceno en cada línea la siguiente informacion de un vuelo realizado
 en el día, el número de vuelo, la hora de salida programa (expresada en formato militar; hh:mm) y la hora de salida real
-(expresada en formato militar; hh:mm). Desarrolle una aplicación en VB2010 bajo consola, que utilizando el archivo
-“Vuelos.Txt”, determine e imprima hacia el archivo de datos “resultados.txt” el número de vuelo, la salida programada
+(expresada en formato militar; hh:mm). Desarrolle un programa bajo consola, que utilizando el archivo
+Vuelos.Txt, determine e imprima hacia el archivo de datos resultados.txt el número de vuelo, la salida programada
 de salida y el tiempo de demora (expresado en hh: mm), y por pantalla reporte la información de ¿cúal fue el vuelo con
 la mayor demora?
 REQUERIMIENTOS

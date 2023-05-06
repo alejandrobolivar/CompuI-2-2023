@@ -14,8 +14,8 @@ Por ejemplo:
 NOTA: recuerde que al sumar no se toma el mismo número
 Enunciado
 Desarrolle una aplicación en VB2010 de consola, que lea un grupo de valores enteros,
-desde un archivo llamado “numeros.txt” y determine e imprima para cada numero
-leído en el archivo “clasificacion.txt”, el número leído y su clasificación
+desde un archivo llamado numeros.txt y determine e imprima para cada numero
+leído en el archivo clasificacion.txt, el número leído y su clasificación
 (ABUNDANTE, DEFICIENTE o PERFECTO)
 Requerimientos
 1. Desarrolle un subprograma que dado un número entero, retorne la sumatoria

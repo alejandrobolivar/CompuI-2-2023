@@ -11,7 +11,7 @@ Campeonato Mundial de Fórmula 1. Las carreras de Fórmula 1 se celebran
 en circuitos urbanos o en circuitos especialmente construidos.
 Con la finalidad de registrar posibles cambios en las estrategias de las
 escuderías por cada corredor participante se le realiza el siguiente registro
-en el archivo de nombre “carrera.txt”, Almacenándose la información
+en el archivo de nombre carrera.txt, Almacenándose la información
 correspondiente a la ultima carrera de Formula 1 que este disputó, de la
 siguiente manera: en la primera línea se almacena la información
 del nombre del circuito, nombre del piloto y la hora de inicio de la carrera.
@@ -19,7 +19,7 @@ Adicionalmente, por cada vuelta realizada al circuito se toma: el tiempo de dura
 (expresado minutos, segundos y centésimas de segundos), el tiempo de demora en el Pit
 Stop expresado en segundos, así como la cantidad de llantas sustituidas.
 Problema
-Se requiere que diseñe una aplicación en VB2010 bajo consola, que procese la
+Se requiere que diseñe un programa bajo consola, que procese la
 información del archivo antes mencionado que determine e imprima por pantalla:
 • Cantidad de veces que entró al Pit Stop el piloto. (Tiempo en Pit Stop>0)
 • Hora de culminación de la competencia por el piloto, expresada en hora y minuto.

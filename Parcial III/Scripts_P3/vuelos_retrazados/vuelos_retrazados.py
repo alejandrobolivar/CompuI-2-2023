@@ -26,19 +26,19 @@ cero o negativo.
 3.- Recuerde que: 1 Hora = 60 Minutos
 
 PROBLEMA:
-En un archivo de datos de nombre ‘vuelos.dat’ se almaceno en cada línea la
+En un archivo de datos de nombre vuelos.dat se almaceno en cada línea la
 siguiente informacion de cada vuelo realizado en un día, el número de vuelo,
 la hora de salida programa (expresada en formato militar; hh:mm) y la hora de
 salida real (expresada en formato militar; hh:mm). Desarrolle un programa que
-determine e imprima hacia el archivo de datos ‘resultados.dat’ el número de vuelo,
+determine e imprima hacia el archivo de datos resultados.dat el número de vuelo,
 la salida programada y el tiempo de demora (expresado en hh: mm), y por
 pantalla reporte la informacion de cual fue el vuelo con la mayor demora.
 
 REQUERIMIENTOS:
 Para la solución del problema debe definir y utilizar:
-1. Defina una estructura tipo registro de nombre “Tiempo”, capaz de almacenar
-un tiempo expresado en horas (HH) y nminutos (MM).
-2. Defina una estructura tipo registro de nombre “Vuelo”, capaz de almacenar
+1. Defina una estructura tipo registro de nombre Tiempo, capaz de almacenar
+un tiempo expresado en horas (hh) y nminutos (mm).
+2. Defina una estructura tipo registro de nombre Vuelo, capaz de almacenar
 el numero de vuelo y dos tiempos tipo hora .
 3. Un subprograma que lea desde archivo de datos una línea que contenga
 la informacion del número de vuelo de un avión, la hora pautada de salida y
@@ -74,7 +74,7 @@ El vuelo con mayor demora fue el 302 con salida programada a las 09:15 con 85
 minutos de demora
 """
 
-# Programa que lee una linea del archivo "arch"
+# Programa que lee una linea del archivo arch
 def leerpuntos(registro):
     linea = registro.split(',')
     identif = int(linea[0])
