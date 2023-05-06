@@ -9,11 +9,11 @@ El Campeonato mundial de autos locos ha decidido que a partir de esta temporada,
 parrilla de partida se establecerá por clasificación. Para ello desean que cada auto,
 debe girar un circuito de 50 km el número de veces que deseen en un periodo de 1.5
 horas y aquel que realice la trayectoria en el menor tiempo es el que parte de primero.
-Para ello un día antes de la carrera registraron en el archivo “Clasificacion.txt”, la
+Para ello un día antes de la carrera registraron en el archivo Clasificacion.txt, la
 siguiente información ordenada por conductor:
-Nombre del Conductor, Hora Inicio y fin del recorrido (HH, MM, SS)
+Nombre del Conductor, Hora Inicio y fin del recorrido en (hh, mm, ss)
 Ejemplo:
-    
+
 Pier
 09, 03, 15, 09, 15, 59, 0
 09, 30, 35, 10, 05, 00, 1
@@ -24,15 +24,13 @@ Penélope
 El Varón rojo
 11, 37, 00, 12, 00, 00, 1
 
-Nota: el tiempo está expresado
-en Horas (HH), minutos (MM) y
-segundos (SS).
+Nota: el tiempo está expresado en Horas (hh), minutos (mm) y segundos (ss).
 
-Enunciado
-Elabore un programa que dado el archivo “Clasificados.txt”, determine e imprima por pantalla los
+Enunciado:
+Elabore un programa que dado el archivo Clasificados.txt, determine e imprima por pantalla los
 siguientes resultados:
 Para cada conductor:
-• Nombre del Conductor, tiempo menor realizado, Velocidad promedio en la ejecución del recorrido (Km/H).
+• Nombre del Conductor, tiempo menor realizado, Velocidad promedio en la ejecución del recorrido (km/h).
 Para todos los usuarios:
 • Nombre del Conductor que realiza el recorrido con el menor tiempo.
 • Porcentaje de Conductores que pudieron realizar el recorrido en más de dos veces.
@@ -50,23 +48,21 @@ si el tiempo1 es menor al tiempo2.
 segundos con un formato de dos dígitos y separados por dos puntos. Ejemplo: 00:45:05
 
 Salida por pantalla:
-pier   Tiempo Transc.:   0:12:44  Velocidad Promedio: 161.38
-Penelope   Tiempo Transc.:   0:10:12  Velocidad Promedio: 187.47
-El varon rojo   Tiempo Transc.:   0:23:0  Velocidad Promedio: 130.43
+pier   Tiempo Transc.:   00:12:44  Velocidad Promedio: 161.38
+Penelope   Tiempo Transc.:   00:10:12  Velocidad Promedio: 187.47
+El varon rojo   Tiempo Transc.:   00:23:00  Velocidad Promedio: 130.43
 Nombre del Conductar más rápido: Penelope
-Porcentaje de Conductores que pudieron realizar el recorrido en más de 2 veces= 33.33% 
-    
+Porcentaje de Conductores que pudieron realizar el recorrido en más de 2 veces= 33.33%
+
 """
-# Escenario: Los Autos Locos
 
 # Procedimiento que permite Leer el nombre del conductor del archivo
-def LeeNomb(contenido, linea):
-    Nombre = contenido[linea].strip()
-    return Nombre
+def lee_nomb(contenido, linea):
+    return contenido[linea].strip()
 
 
 # Procedimiento que lee los valores de hora para cada uno de los campos de la estructura Horas
-def leeHora(contenido, linea):
+def lee_hora(contenido, linea):
     s = [0,0,0]
     t = [0,0,0]
     linea = contenido[linea].split(',')
@@ -81,113 +77,113 @@ def leeHora(contenido, linea):
 
 
 # Función que convierte las horas y minutos en segundos
-def TiempoSeg(T: list):
-    return T[0] * 3600 + T[1] * 60 + T[2]
+def tiempo_seg(t: list):
+    return t[0] * 3600 + t[1] * 60 + t[2]
 
 
 # Función que calcula en tiempo transcurrido entre dos horas
-def TiempoTranscurrido(Hi: list, Hf: list):
-    return TiempoSeg(Hf) - TiempoSeg(Hi)
+def tiempo_transcurrido(hi: list, hf: list):
+    return tiempo_seg(hf) - tiempo_seg(hi)
 
 
 # Función que determina el menor tiempo o mejor tiempo
-def TMenor(T: int, TM: int):
-    TMen = TM
-    if T < TM:
-        TMen = T
-    
-    return TMen
+def t_menor(t: int, tm: int):
+    tmen = tm
+    if t < tmen:
+        tmen = t
+    return tmen
 
 
 # Función que convierte el tiempo(segundos) a horas. minutos y segundos
-def ConvHMS(T: int):
-    H = [0,0,0]
-    H[0] = (T // 3600)
-    H[1] = (T % 3600) // 60
-    H[2] = ((T % 3600) % 60)
+def conv_hms(t: int):
+    h = [0, 0, 0]
+    h[0] = (t // 3600)
+    h[1] = (t % 3600) // 60
+    h[2] = ((t % 3600) % 60)
+    return h
 
-    return H
 
 # Función que calcula la velocidad
-def Velocidad(d: float, T: int):
-    return d / (T / 3600)
+def velocidad(d: float, t: int):
+    return d / (t / 3600)
 
 
 # Procedimiento que determina el conductor con mejor tiempo de recorrido
-def CondMenTime(nombre:str, nombreMen:str, T:int, TMen:int):
-    if T < TMen:
-        nombreMen = nombre
-        TMen = T
-    
-    return nombreMen, TMen
+def cond_men_time(nombre:str, nombremen:str, t:int, tmen:int):
+    if t < tmen:
+        nombremen = nombre
+        tmen = t
+
+    return nombremen, tmen
 
 
 # Procedimiento que imprime en pantalla
-def ImprimePant(nomb, trev: list, Vel: float):
-    print(nomb + "   Tiempo Transc.:   " + str(trev[0]) + ":" + str(trev[1]) + ":" + str(trev[2]) + "  Velocidad Promedio: %.2f" % Vel)
+def imprime_pant(nomb, t_rev: list, vel: float):
+    print(
+        f"{nomb}   Tiempo Transc.:   {t_rev[0]:02}:{t_rev[1]:02}:{t_rev[2]:02}"
+        + "  Velocidad Promedio: %.2f" % vel
+    )
 
 
 def main():
     # Var. Entrada
-    C = [str,[0,0,0],[0,0,0],0]
+    c = [str,[0,0,0],[0,0,0],0]
     # Var. Proceso
     cent: int
-    TT: int
-    TM: int
-    T: int
-    Cont: int
-    ContV: int
-    ContC: int
-    AcumVel: float
+    tt: int
+    tm: int
+    t: int
+    cont: int
+    cont_v: int
+    contc: int
+    acum_vel: float
     # Var. Salida
-    Trev = [0,0,0]
-    Porcmas2: float
-    VelPro: float
-    CMt: str = ""
+    t_rev = [0,0,0]
+    porc_mas_2: float
+    vel_pro: float
+    cmt: str = ""
     DIST = 50
 
     arch = open("clasificacion.txt", 'r')
     contenido = arch.readlines()
     linea = 0
-    Cont = 0 
-    ContC = 0 
-    T = 100000
-    
+    cont = 0
+    contc = 0
+    t = 100000
+
     while linea < len(contenido):
-        
-        C[0] = LeeNomb(contenido, linea)
+        c[0] = lee_nomb(contenido, linea)
         linea += 1
-        
         cent = 0
-        ContC += 1
-        ContV = 0
-        AcumVel = 0
-        TM = 1000000
-        
+        contc += 1
+        cont_v = 0
+        acum_vel = 0
+        tm = 1000000
+
         while cent == 0:
-            
-            C[1],C[2],cent = leeHora(contenido, linea)
+
+            c[1], c[2], cent = lee_hora(contenido, linea)
             linea += 1
-            
-            TT = TiempoTranscurrido(C[1], C[2])
-            TM = TMenor(TT, TM)
-            ContV += 1
-            AcumVel += Velocidad(DIST, TT)
 
-        Trev = ConvHMS(TM)
-        VelPro = AcumVel / ContV
-        ImprimePant(C[0], Trev, VelPro)
-        
-        CMt, T = CondMenTime(C[0], CMt, TM, T)
-        
-        if ContV > 2:
-            Cont += 1
+            tt = tiempo_transcurrido(c[1], c[2])
+            tm = t_menor(tt, tm)
+            cont_v += 1
+            acum_vel += velocidad(DIST, tt)
 
-    print("Nombre del Conductar más rápido: %s" % CMt)
-    
-    if Cont > 0:
-        Porcmas2 = Cont * 100 / ContC
-        print("Porcentaje de Conductores que pudieron realizar el recorrido en más de 2 veces= %.2f" % Porcmas2 + '%')
+        t_rev = conv_hms(tm)
+        vel_pro = acum_vel / cont_v
+        imprime_pant(c[0], t_rev, vel_pro)
+
+        cmt, t = cond_men_time(c[0], cmt, tm, t)
+
+        if cont_v > 2:
+            cont += 1
+
+    print(f"Nombre del Conductar más rápido: {cmt}")
+
+    if cont > 0:
+        porc_mas_2 = cont * 100 / contc
+        print("Porcentaje de Conductores que pudieron realizar el recorrido en más de 2 veces= %.2f" % porc_mas_2 + '%')
 
     # Mensaje al usuario
     input("Pulse una tecla para finalizar")
