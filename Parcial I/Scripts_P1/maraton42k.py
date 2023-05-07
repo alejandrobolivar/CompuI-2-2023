@@ -5,8 +5,8 @@ América Latina, dicho maratón consiste en un recorrido de 42 kilómetros en un
 ruta preestablecida en la ciudad. En este sentido, se desea llevar un registro
 sobre la información de sus participantes en la competencia, para lo cual se
 tiene:
-Nombre, País de procedencia, Género, Tiempo en HORAS-MINUTOSSEGUNDOS en realizar el recorrido y Kilómetros alcanzados.
-Realice un programa en VB2010 que con la información registrada que permita determinar en imprimir por consola
+Nombre, País de procedencia, Género, Tiempo en HORAS-MINUTOS-SEGUNDOS en realizar el recorrido y Kilómetros alcanzados.
+Realice un programa que con la información registrada que permita determinar en imprimir por consola
 lo siguiente:
 Por cada corredor
 1) Mensaje que indique si terminó o no el recorrido.
@@ -50,13 +50,12 @@ tiempoVenezuela
 contador
 '''
 
-
 # Inicializaciones
 cent = "S"
-primerlugar = False
+bandera = True
 empate = False
 segundolugar = False
-ultimo = False
+bandera2 = True
 tiempovenezuela = 0
 contador = 0
 tiempototal = 0
@@ -76,50 +75,39 @@ while cent.upper() == "S":
 
     # Cálculo e impresión del tiempo total de recorrido
     tiempoTotal = hh * 3600 + mm * 60 + ss
-    print("Tiempo en realizar recorrido: " , tiempototal , " s")
+    print("2) Tiempo en realizar recorrido: " , tiempototal , " s")
 
     # Detección del primer y segundo lugar, y verificación de empate
     if kilometros == 42:
-        print("Terminó el recorrido")
+        print("1) Terminó el recorrido")
 
-        if not primerlugar:
+        if bandera:
             nombreprimerlugar = nombre
             paisprimerlugar = pais
             tiempoPrimerlugar = tiempototal
-            primerlugar = True
-        elif tiempoTotal < tiempoPrimerlugar:
+            bandera = False
+        elif tiempoTotal <= tiempoPrimerlugar:
             nombresegundolugar = nombreprimerlugar
             paissegundolugar = paisprimerlugar
             tiemposegundolugar = tiempoprimerlugar
-            segundolugar = True
 
             nombreprimerLugar = nombre
             paisprimerLugar = pais
             tiempoprimerLugar = tiempototal
-            empate = False
-        elif tiempototal == tiempoprimerlugar:
-            nombreempate = nombre
-            paisempate = pais
-            empate = True
-        elif tiempototal > tiempoprimerlugar and not empate:
-            if not segundolugar:
-                nombresegundolugar = nombre
-                paissegundolugar = pais
-                tiemposegundolugar = tiempoTotal
-                segundolugar = True
-            elif tiempototal < tiemposegundolugar:
-                nombresegundolugar = nombre
-                paissegundolugar = pais
-                tiemposegundolugar = tiempototal
+
+        elif tiempoTotal <= tiemposegundolugar:  # Nuevo segundo lugar
+            nombresegundolugar = nombre
+            paissegundolugar = pais
+            tiemposegundolugar = tiempo
 
         # Detección del corredor que terminó el recorrido y llegó de último
-        if not ultimo:
+        if bandera2:
             nombreultimo = nombre
             tiempoultimo = tiempoTotal
-            ultimo = True
+            bandera = False
         elif tiempototal >= tiempoultimo:
-            nombretltimo = nombre
-            tiempotltimo = tiempototal
+            nombreultimo = nombre
+            tiempoultimo = tiempototal
 
         # Detección de venezolanos que terminaron el recorrido
         if pais.upper() == "VENEZUELA":
@@ -133,23 +121,22 @@ while cent.upper() == "S":
     cent = input("¿Más datos? [S/N]: ")
 
 # Impresión de los ganadores
-if primerlugar: # Validación de existencia de un primer lugar
-    print("Primer lugar: " , nombreprimerlugar , " País de procedncia: " , paisprimerlugar)
-    if empate: # Verificación de empate
-        print("Hubo empate")
-        print("Nombre de lugar de empate: " , nombreempate , " País de procedencia " , paisempate)
-    elif segundolugar:  # Verificación de existencia de un segundo lugar
-        print("Segundo lugar: ", nombresegundolugar , " País de procedencia: " , paissegundolugar)
-    else:
-        print("No hubo segundo lugar")
-else:
+if bandera: # Validación de existencia de un primer lugar
     print("No hubo ganadores")
+else:
+    if tiempoprimerlugar == tiemposegundolugar: # Verificación de empate
+        print("Hubo empate en el primer lugar")
+        print(nombreprimerlugar , " País de procedncia: " , paisprimerlugar)
+        print(nombresegundolugar , " País de procedencia: " , paissegundolugar)
+    else:
+        print("Primer lugar: " , nombreprimerlugar , " País de procedncia: " , paisprimerlugar)
+        print("Segundo lugar: ", nombresegundolugar , " País de procedencia: " , paissegundolugar)
 
 # Impresión de corredor que completo el recorrido y llegó de último
-if ultimo:
-    print("Nombre del corredor que completo el recorrido y llegó de último: ", nombreultimo)
-else:
+if bandera2:
     print("Nadie llegó de último")
+else:
+    print("Nombre del corredor que completo el recorrido y llegó de último: ", nombreultimo)
 
 if contador != 0:  # Verificación de existencia de un venezolano ganador
     promedio = tiempovenezuela / contador
