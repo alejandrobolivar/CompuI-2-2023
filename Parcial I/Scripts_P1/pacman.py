@@ -45,10 +45,10 @@ while cent == 0:
     acumpuntaje += puntaje
 
     if band == 0:
-        band = 1
         puntajeMejor = puntaje
         nombremejor = nombre
         paismejor = pais
+        band = 1
     elif puntaje > puntajemejor:
         puntajeMejor = puntaje
         nombreMejor = nombre
@@ -68,28 +68,28 @@ while cent == 0:
     cent = int(input("Otro jugador [SI:0 / NO:1]:"))
 
 if band != 0:
-    print("El mejor puntaje los obtuvo %s y su pais de residencia es %s" % nombremejor, paismejor)
-    print("Cantidad total de jugadores que participaron: " , totalparticipantes)
+    print("1) El mejor puntaje los obtuvo %s y su pais de residencia es %s" % nombremejor, paismejor)
+    print("2) Cantidad total de jugadores que participaron: " , totalparticipantes)
 else:
     print("No hubo participantes")
 
 if totalparticipantes != 0 and cont_120 != 0:
     porc_120 = (cont_120 / totalparticipantes) * 100
-    print("Porcentaje de jugadores que duraron más de 120 minutos jugando: " , porc_120)
+    print("3) Porcentaje de jugadores que duraron más de 120 minutos jugando: " , porc_120)
 elif cont_120 == 0 and totalparticipantes != 0:
     print("Ningún participante jugó por más de 120 minutos")
 
 if totalparticipantes != 0:
     puntajeprom = acumpuntaje / totalparticipantes
-    print("Puntaje promedio obtenido por los jugadores: " , puntajeprom)
+    print("4) Puntaje promedio obtenido por los jugadores: " , puntajeprom)
 
 if band2 != 0:
-    print("Nombre de la primera persona que duró menos de 40 minutos jugando: " , nombre_40)
+    print("5) Nombre de la primera persona que duró menos de 40 minutos jugando: " , nombre_40)
 else:
     print("Ningún jugador duró menos de 40 minutos jugando")
 
 if contf != 0:
     puntajepromf = acumpuntajef / contf
-    print("Puntaje promedio obtenido por los jugadores de sexo femenino: " , puntajepromf)
+    print("6) Puntaje promedio obtenido por los jugadores de sexo femenino: " , puntajepromf)
 elif totalparticipantes != 0:
     print("No hubo jugadores de sexo femenino")

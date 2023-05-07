@@ -10,11 +10,11 @@ Al final de una jornada de trabajo de la Unidad, se registra en una lista los da
 Cédula, Nombre y Edad del Paciente, y el Tipo de estudio realizado (1=Cabeza, 2=Tórax, 3=Columna, 4=Extremidades)
 Elabore un programa, que lea la lista con los datos registrados de los N estudios y determine e imprima:
 Para cada Estudio:
-Nombre del Paciente, Monto en Bs. del estudio sin IVA, el monto del IVA (8%) y El Monto Total que canceló el paciente.
+1) Nombre del Paciente, Monto en Bs. del estudio sin IVA, el monto del IVA (8%) y El Monto Total que canceló el paciente.
 Para todos los Estudios:
-Suma total recaudada en Bs., sin tomar en cuenta el IVA, y el monto total en Bs. cobrados por IVA
-Promedio de Monto en Bs. sin IVA de los pacientes que se realizaron Estudios de Cabeza o Columna, y cuya edad sea mayor a 40 años.
-Porcentaje de Personas con edad comprendida entre 45 y 52 años
+2) Suma total recaudada en Bs., sin tomar en cuenta el IVA, y el monto total en Bs. cobrados por IVA
+3) Promedio de Monto en Bs. sin IVA de los pacientes que se realizaron Estudios de Cabeza o Columna, y cuya edad sea mayor a 40 años.
+4) Porcentaje de Personas con edad comprendida entre 45 y 52 años
 '''
 # Declaración de Constantes
 UT = 75
@@ -30,16 +30,16 @@ contedad = 0
 n = int(input("Cantidad de estudios realizados:"))
 # Proceso
 for _ in range(n):
-    #Lectura de datos de entrada
+    # Lectura de datos de entrada
     cedula = input("Cédula:")
     nombre = input("Nombre:")
     edad = int(input("Edad:"))
-    tipoestudio = int(input("Tipo de Estudio:"))
-    if tipoestudio == 1:
+    tipo_estudio = int(input("Tipo de Estudio:"))
+    if tipo_estudio == 1:
         monto = 2.75 * UT
-    elif tipoestudio == 2 :
+    elif tipo_estudio == 2 :
         monto = 2.5 * UT
-    elif tipoestudio == 3 :
+    elif tipo_estudio == 3 :
         monto = 5.25 * UT
     else:
         monto = 2.25 * UT
@@ -48,14 +48,14 @@ for _ in range(n):
     total = monto + iva
 
     # Pregunta 1
-    print("Nombre= " , nombre , "Monto sin IVA= " , monto , "IVA (8%)= " , iva , "Total= " , total)
+    print("1) Nombre= " , nombre , "Monto sin IVA= " , monto , "IVA (8%)= " , iva , "Total= " , total)
 
     # Pregunta 2
     totalsiniva += monto
     totaliva += iva
 
     # Pregunta 3
-    if tipoestudio == 1 or tipoestudio ==3 and edad > 40:
+    if tipo_estudio == 1 or tipo_estudio ==3 and edad > 40:
         suma += monto
         cont += 1
 
@@ -65,16 +65,16 @@ for _ in range(n):
 
 # Salida de Datos
 # Pregunta 2
-print("Total Recaudado sin IVA=" , totalsiniva)
-print("Monto Total cobrado por IVA (8%)=" , totaliva)
+print("2) Total Recaudado sin IVA=" , totalsiniva)
+print("2) Monto Total cobrado por IVA (8%)=" , totaliva)
 
 #Pregunta 3
 if cont !=  0:
     promedio = suma / cont
-    print("Promedio de Monto en Bs sin IVA de Estudios 1 o 3, con edad mayor a 40 años=" , promedio)
+    print("3) Promedio de Monto en Bs sin IVA de Estudios 1 o 3, con edad mayor a 40 años=" , promedio)
 else:
     print("No hubo pacientes con estudios de cabeza o columna mayor de 40 años")
 
 # Pregunta 4
 porcentaje = contedad * 100 / n
-print("El porcentaje de personas con edad comprendida entre 45 y 52 años es = " , porcentaje)
+print("4) El porcentaje de personas con edad comprendida entre 45 y 52 años es = " , porcentaje)
