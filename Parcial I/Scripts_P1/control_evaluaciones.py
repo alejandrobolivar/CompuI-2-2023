@@ -1,5 +1,5 @@
 '''
-El departamento de computación lo contrata a usted para que desarrolle una aplicación de consola VB2010 que de los resultados del primer parcial de un grupo de estudiantes, a la cual se le suministra la siguiente información: 
+El departamento de computación lo contrata a usted para que desarrolle un programa que de los resultados del primer parcial de un grupo de estudiantes, a la cual se le suministra la siguiente información:
 Nombre del estudiante, Hora y minutos de llegada a la prueba.
 
 Si logra entrar a la prueba:
@@ -43,7 +43,7 @@ Prim_Est_Ent  '4) Cuántos estudiantes se procesaron antes de encontrar el prime
 Prom_Notas_20min  '5) Promedio de las notas de los estudiantes que llegaron después de transcurridos 20 minutos de haber comenzado la prueba
 '''
 
-# INICIALIZACIÓN DE VARIABLES
+# Inicialización de variables
 r = 0
 band = 0
 tot_est_temp = 0

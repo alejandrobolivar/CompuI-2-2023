@@ -48,7 +48,7 @@ cont_vacio= 0
 bandera2 = True
 cont_menor_r = 1
 cont_atrac= 0
-
+resp = 2
 while resp == 2:
 
     q1 = float(input("Valor de la Primera Carga [C]: "))
@@ -64,7 +64,7 @@ while resp == 2:
             k = 9000
 
         # 1) Cálculo de Fe
-        fe = k * (q1 * q2) / r ^ 2
+        fe = k * (q1 * q2) / r ** 2
         print("1) Tienen una Fuerza eléctrica de:" , fe , "[N]")
 
         # 2) Datos del porcentaje
@@ -106,9 +106,14 @@ if cont_vacio > 0:
 else:
     print("3) No hubo cargas en medio vací­o")
 
-print("4) La primera Fe de atracción en porcelana tiene un valor de: " , primer_fe_vacio)
+if bandera:
+    print("4) No hubo cargas de atracción en porcelana")
+else:
+    print("4) La primera Fe de atracción en porcelana tiene un valor de: " , primer_fe_vacio)
 
 if cont_menor_r == 1:
     print("5) La Fe con menor distancia entre las cargas es de: " , fe_menor_r , "[N]")
 else:
     print("5) La primera Fe con menor distancia entre las cargas es de: " , fe_menor_r , "[N] y hay " , cont_menor_r , "más con la misma distancia")
+# Fin del programa
+input('Pulse una tecla para finalizar... ') # Pausa

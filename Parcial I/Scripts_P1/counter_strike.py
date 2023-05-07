@@ -12,7 +12,7 @@ inscritos:
 NOMBRE DEL JUGADOR, EQUIPO, CANTIDAD DE ENEMIGOS ELIMINADOS Y
 CANTIDAD DE VECES QUE FUE ELIMINADO EL JUGADOR
 
-Desarrolle el Algoritmo de un programa que procese esa información y determine:
+Desarrolle un programa que procese esa información y determine:
 1)Promedio de enemigos eliminados por el equipo de Estudiantes
 2)Nombre del 1er jugador en eliminar a más de 100 enemigos y el equipo al que pertenece
 3)Cantidad total de veces que fueron eliminados los jugadores del equipo de Profesores
@@ -66,17 +66,17 @@ for _ in range(L):
 
 if cant_est > 0:  # Pregunta 1. Promedio de enemigos eliminados por el equipo de Estudiantes
     prom = sum_enemigos_elim / cant_est
-    print("Promedio de enemigos eliminados por el equipo de Estudiantes= " ,prom)
+    print("1) Promedio de enemigos eliminados por el equipo de Estudiantes= " ,prom)
 else:
     print("Sin estudiantes")
 
 
 if band_nomb1 == 1:  # Pregunta 2. Nombre del 1er jugador en eliminar a má¡s de 100 enemigos y el equipo al que pertenece
-    print("El jugador " , nomb1 , " fue el 1er jugador en eliminar a más de 100 enemigos")
+    print("2) El jugador " , nomb1 , " fue el 1er jugador en eliminar a más de 100 enemigos")
     print("y el equipo al que pertenece es " , equipo1)
 else:
     print("Ningún jugador super los 100 eliminados")
 
 
 # Pregunta 3. Cantidad total de veces que fueron eliminados los jugadores del equipo de Profesores
-print("Cantidad total de veces que fueron eliminados los jugadores del equipo de Profesores= " , cont_total_elim_prof)
+print("3) Cantidad total de veces que fueron eliminados los jugadores del equipo de Profesores= " , cont_total_elim_prof)
