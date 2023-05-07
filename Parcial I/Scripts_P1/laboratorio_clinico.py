@@ -103,11 +103,11 @@ while  resp.upper() =='S':
         band_min_hemat = 1
         min_hemt = hemat
         prim_pac_men_hemat = nombre
-        cont_hemat = 0
+        cont_hemat = 1
     elif hemat < min_hemt:  # Reemplaza el Primer Paciente con el menor valor de hematocrito
         min_hemt = hemat
         prim_pac_men_hemat = nombre
-        cont_hemat = 0
+        cont_hemat = 1
     elif hemat == min_hemt:  # Tiene el mismo menor valor de hematocrito
         cont_hemat += 1
 
@@ -116,28 +116,28 @@ while  resp.upper() =='S':
 #   Salida de Datos
 if cont_muj != 0:
     porc_muj_anem = cont_muj_anem / cont_muj * 100
-    print("El porcentaje de mujeres anémica es de :" , porc_muj_anem , "%")
+    print("1) El porcentaje de mujeres anémica es de :" , porc_muj_anem , "%")
 else:
     print("No hubo pacientes femeninas")
 
 if cant_pac_plaq_may400 == 0:  # Pregunta 2
     print("No hubo pacientes con plaquetas elevadas")
 else:
-    print("El total de pacientes con plaquetas elevada a los 400 mm^3 es de: " , cant_pac_plaq_may400)
+    print("2)El total de pacientes con plaquetas elevada a los 400 mm^3 es de: " , cant_pac_plaq_may400)
 
 if cont_pac != 0:  # Pregunta 3
     prom_linf_dia = acum_linf / cont_pac
-    print("El promedio de linfocitos al dia es de: " , prom_linf_dia)
+    print("3) El promedio de linfocitos al dia es de: " , prom_linf_dia)
 else:
     print("Sin pacientes")
 
 if cont_hemat != 0:  # Pregunta 4
-    print("El primer paciente con el menor valor de Hematocrito es: " , prim_pac_men_hemat)
+    print("4) El primer paciente con el menor valor de Hematocrito es: " , prim_pac_men_hemat)
     if cont_hemat > 0:
         print("Y hubo " , cont_hemat , " pacientes con esa misma cantidad de Hematocritos")
 
 # Pregunta 5
 if band_menor4 == 1:
-    print("El primer hombre en tener su leucosito menor a 4 mm^3 es:" , prim_hom_leuc_menor4)
+    print("5) El primer hombre en tener su leucosito menor a 4 mm^3 es:" , prim_hom_leuc_menor4)
 else:
     print("No hay hombre con leucosito menor a 4 mm^3")
