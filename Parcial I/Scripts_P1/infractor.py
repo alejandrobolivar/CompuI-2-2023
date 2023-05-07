@@ -10,7 +10,7 @@ donde se genera para conductor la siguiente data:
  
 Nombre del conductor, Genero (1: Femenino 2: Masculino), Hora de circulación, velocidad registrada (millas/hora)
  
-Desarrolle una aplicación de consola VB2010 que procese la información anterior
+Desarrolle un programa que procese la información anterior
 para un grupo de conductores y determine e imprima:
 
 Para cada conductor:
