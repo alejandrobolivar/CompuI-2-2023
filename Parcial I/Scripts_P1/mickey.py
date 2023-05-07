@@ -55,19 +55,19 @@ while cent == 0:
 # Impresión pregunta a
 if cont_total != 0:
     porcentaje = cont_oreja / cont_total * 100
-    print("Porcentaje de jugadores que su disparo quedó ubicado en una de las orejas: " , porcentaje , "%")
+    print("a) Porcentaje de jugadores que su disparo quedó ubicado en una de las orejas: " , porcentaje , "%")
 else:
     print("No hubo jugadores")
 
 # Impresión pregunta b
 if cont_cara != 0:
     promedio = acum_cara / cont_cara
-    print("Promedio de las coordenadas X de los puntos ubicados dentro de la cara: {promedio:6.2f}")
+    print("b) Promedio de las coordenadas X de los puntos ubicados dentro de la cara: {promedio:6.2f}")
 else:
     print("Ningún jugador disparó a la cara de Mickey")
 
 # Impresión pregunta c
 if band != 0:
-    print(nombreganador , " fue el ganador del día, ¡FELICIDADES!")
+    print('c) ', nombreganador , " fue el ganador del día, ¡FELICIDADES!")
 else:
     print("No hubo ganador")
