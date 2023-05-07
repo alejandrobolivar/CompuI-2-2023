@@ -42,25 +42,30 @@ while resp.lower() == 's' :
     if temperatura > 38 and hemoglobina < 10 and globulos < 4000 :
         cont_sosp += 1  # cuenta la cantidad de sospechosos
         acum_temp = acum_temp + temperatura  # suma todas las temperaturas de los pacientes sospechosos
-        print("el paciente es sospechoso de tener el virus")  # p1
+        print('1) el paciente es sospechoso de tener el virus')  # p1
         if cont_sosp == 1:  # p3 y p4
             estado_1sosp = estado
             cant_1sosp = cont_tot
     else:
-        print("el paciente no es sospechoso de tener el virus")  # p1
+        print('el paciente no es sospechoso de tener el virus')  # p1
 
     resp = input("Desea agregar otro paciente? Si(s) no(n): ")
 
-print("el primer sospechoso se encontró en el estado" , estado_1sosp)  # p3
-print("la cantidad de pacientes procesados hasta conseguir el primer paciente sospechoso es de: ", cant_1sosp)  # p4
 if cont_tot != 0:
     porc = (cont_sosp / cont_tot) * 100
-    print("el porcentaje de pacientes sospechosos es de: ", porc)  # p2
+    print(f'2) el porcentaje de pacientes sospechosos es de: {porc:.2f}')  # p2
 else:
     print('No se procesaron pacientes')
 
+if cont_sosp > 0:
+    print(f'3) el primer sospechoso se encontró en el estado {estado_1sosp}')  # p3
+else:
+    print('3) No hubo sospechosos')
+
+print('4) la cantidad de pacientes procesados hasta conseguir el primer paciente sospechoso es de: {cant_1sosp}')  # p4
+
 if cont_sosp != 0:
     prom = (acum_temp/cont_sosp)
-    print("el promedio de los pacientes sospechosos es de: ", prom)  # p5
+    print(f'5) la temperatura promedio de los pacientes sospechosos es de: {prom:.2f}')  # p5
 else:
     print('No hubo pacientes sospechosos')
