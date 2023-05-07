@@ -47,7 +47,7 @@ while resp == 2:
     
     if incremento > 0:  # P1. Un mensaje que indique si el video está entre los favoritos o no.
         contfav += 1  # P2. ¿Cuántos videos están entre los favoritos?
-        print('Este video esta entre los favoritos')
+        print('1) Este video esta entre los favoritos')
     else:
         print('No esta entre los favoritos')
         
@@ -67,14 +67,14 @@ while resp == 2:
         
     resp = int(input('Desea procesar otra persona: ? 1=No , 2=Si '))
 
-print('La cantidad de video favoritos es = ', contfav)
+print(f'2) La cantidad de video favoritos es = {contfav}')
 
 if c > 0:
-	print('El porcentaje de video de musica es = ', (c1/c)*100)  # P3. Porcentaje de videos de música con respecto al total de videos registrados
+    print(f'3) El porcentaje de video de musica con respecto al total de videos registrados es = {c1*100/c:.2f}') 
 else:
     print('No se vieron videos de musica')
 
 if band != 0:
-    print('el Codigo del video con el mayor incremento de visitas es = ', codigom)
+    print(f'4) el Codigo del video con el mayor incremento de visitas es = {codigom}')
 else:
-	print('Ningun video tuvo un incremento')
+    print('Ningun video tuvo un incremento')
