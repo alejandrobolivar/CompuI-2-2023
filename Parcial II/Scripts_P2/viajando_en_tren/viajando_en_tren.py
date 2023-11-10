@@ -22,8 +22,6 @@ cuenta el número de kilómetros que se van a recorrer, siendo el precio 60 BsF/
 • Este precio puede tener un descuento del 30% si la duración del viaje es de al menos 7 días, ó si el
 recorrido supera los 800 Km
 
-'''
-
 # Entradas
 NomTerminal: str = ''
 CantPasajes: int
@@ -46,6 +44,7 @@ ContDescuento: int
 AcumMayor: int
 Descuento: int
 MayorIngreso: int
+'''
 
 # Registro de Archivos
 arch1 = open('pasajes.txt', 'r')
