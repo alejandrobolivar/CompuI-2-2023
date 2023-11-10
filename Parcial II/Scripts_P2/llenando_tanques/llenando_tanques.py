@@ -41,8 +41,6 @@ t: tiempo de llenado (s)
  Cuando se acaba el agua disponible ya no se pueden llenar más tobos y por tanto no se llenan más tanques.
  Se llenan los tanques uno por uno. Una vez llenado un tanque se comienza a llenar otro.
 
-'''
-
 # Entradas
 VolumenTanque: float
 Caudal: float
@@ -66,6 +64,7 @@ Tiempo: float
 Band: bool
 i: int  # Auxiliar
 CantAntes: int
+'''
 
 # Registro de Archivos
 arch1 = open('residencias.txt', 'r')
