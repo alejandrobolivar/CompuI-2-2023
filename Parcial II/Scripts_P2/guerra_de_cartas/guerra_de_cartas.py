@@ -20,7 +20,7 @@ a) La pila de cartas se dividió al inicio de manera uniforme, es decir, los dos
 cartas.
 b) Se desconoce la cantidad de cartas que había en la pila inicial.
 c) Si las cartas se acaban y termina la ronda en guerra, no se le asignan las cartas a ningún jugador.
-'''
+
 # variables de entrada
 jugador1: str
 jugador2: str
@@ -35,6 +35,9 @@ mazo: int
 cartasJugador1: int
 cartasJugador2: int
 ganaronda: str
+'''
+contguerra = 0
+controndas = 0
 with open('jugador1.txt', 'r') as arch1:
     arch2 = open('jugador2.txt', 'r')
     arch3 = open('resultados.txt', 'w')
