@@ -34,19 +34,6 @@ cybercafé.
 d) Las horas se manejan en formato de 24 horas (formato militar).
 '''
 
-'''
-# Variables de entrada
-Nombre, serv_caf : str
-N, edad, h_llegada, m_llegada, min_conexion : int
-# Variables de proceso
-cant_proc, cont_espera, mint_llegada, min_espera : int
-cont_4, cont_5_antes, cont_5_despues, band_3, band_5 : int
-# Variables de salida
-hora_salida, min_salida, mint_salida, edad_mayor, min_conex_mayor : int
-nombre_mayor : str
-porcentaje_4 : float
-'''
-
 # Inicialización de contadores y banderas
 cant_proc = 0
 cont_espera = 0
