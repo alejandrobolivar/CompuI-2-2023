@@ -21,7 +21,6 @@ Consideraciones:
  Se considera que un paciente es sospechoso de ser portador del virus gripal A(H1N1), si su valores
 son los siguientes: la temperatura es mayor de 38 °C, la hemoglobina está por debajo de 10 mg/dl y
 la cantidad de glóbulos blancos esté por debajo de 4.000
-'''
 
 #  VARIABLES DE ENTRADA
 NOMP: str = '' #  NOMBRE DEL PACIENTE
@@ -38,6 +37,8 @@ GBMAY: int #  AUXILIAR PARA DETERMINAR EL PACIENTE CON MAYOR CANTIDAD DE GLOBULO
 PORNS: float #  PORCENTAJE DE PACIENTES NO SOSPECHOSOS
 NPMAY: str #  NOMBRE DEL PACIENTE CON MAYOR CANTIDAD DE GLOBULOS BLANCOS
 NIMAY: str #  NOMBRE DE LA INSTITUCION DONDE ESTA EL PACIENTE CON MAYOR CANTIDAD DE GLOBULOS BLANCOS
+'''
+
 #  APERTURA DEL ARCHIVO DE ENTRADA
 arch1 = open("FIEBRE.DAT", 'r')
 #  APERTURA DE LOS ARCHIVOS DE SALIDA
