@@ -18,8 +18,6 @@ Consideraciones
  Si el partido quedó empatado no hay ni ganador, ni perdedor, por lo que no se
  escribe en ningún archivo
  Todas las salidas por pantalla, deben tener los mensajes apropiados
-'''
-
 
 # Ejercicio: Evaluando los resultados del Futbol
 
@@ -42,6 +40,7 @@ partidosEmpatados: int
 numeroDeEquipos: int
 bandera: bool
 mayorCantidaDeGoles: int
+'''
 
 # Inicialización
 bandera = True
