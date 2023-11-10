@@ -21,7 +21,6 @@ Consideraciones:
 • El Tipo de Suscriptor puede ser: 1 para residencial y 2 para comercial
 • El consumo eléctrico se determina como la diferencia entre las lecturas del medidor
 • Se consideran usuarios de alto consumo aquellos cuyo consumo sea superior a 500 KWh
-'''
 
 # Pregunta 2. Exámen Parcial II. Computación I. Periodo 2/2009
 
@@ -44,6 +43,7 @@ sumaConsumo: int
 mayor: int
 promedio: float
 esPrimeraZona: bool
+'''
 
 arch1 = open('consumos.txt', 'r')
 arch2 = open('residencial.txt', 'w')
