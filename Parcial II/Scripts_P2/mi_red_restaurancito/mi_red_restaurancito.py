@@ -42,8 +42,6 @@ Consideraciones:
  (NO INCLUYE IVA)
 •El precio de las bebidas es: BsF. 8,50 (NO incluye IVA)
 
-'''
-
 # Variables de Entrada
 nombresu: str
 nombrecl: str
@@ -68,6 +66,7 @@ porcentajenc: float
 montoprom: float
 ganancia: float
 monto: float
+'''
 
 #  Apertura de los archivos de lectura e impresion
 arch1 = open("ventas.txt", 'r')
