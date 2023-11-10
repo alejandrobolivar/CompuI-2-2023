@@ -28,8 +28,7 @@ eficiencia mínima aceptable del auto.
 • 180° = pi rad
 • La función interna de pascal que calcula el seno se escribe sin(x), donde x es el valor o la expresión del que
 desean obtener el valor del seno, debe estar en radianes.
-'''
-import math
+
 # Variables de Entrada
 modelo: str                    # Modelo del auto registrado
 peso: float                      # Peso del Auto
@@ -48,7 +47,8 @@ AnguloDeMinimaEficiencia: float  # Angulo de inclinacion de la colina en la prue
 ContadorDeAutos: int          # Contador del total de autos registrados en el archivo
 ContadorDeAutosAprobados: int # Contador del autos aprobados registrados
 Bandera: int                  # Bandera
-
+'''
+import math
 # Inicializacion de la bandera
 Bandera = 0
 ContadorDeAutos = 0
