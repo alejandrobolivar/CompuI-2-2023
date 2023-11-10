@@ -22,9 +22,6 @@ CONSIDERACIONES:
 a) El género será: ‘I’ = Investigaciones o Publicaciones; ‘L’= Literatura; ‘T’ = Tecnológico y científicos; ‘O’ = Otros.
 b) Sólo se podrán vender libros publicados en los últimos 5 años.
 
-
-'''
-
 # Variables de entrada
 editorial: str
 representante: str
@@ -46,6 +43,7 @@ cent: int  # Variable para controlar el ciclo interno
 cont_t: int  # Contador de libros totales
 cont_p: int  # Contador de libros permisibles a la venta para calculo del porc
 precio_max: float  # Variable comparador para determinar el libro mas costoso
+'''
 
 # Apertura de archivos
 arch = open("filuc2008.txt", 'r')
