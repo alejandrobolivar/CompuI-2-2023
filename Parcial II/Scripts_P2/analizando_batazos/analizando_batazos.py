@@ -33,8 +33,7 @@ Altura del Batazo <= Altura del Muro)
 Jonrón; Xmax > Largo Campo y Altura del Batazo > Altura del Muro
 PI radian = 180°
 d) g=9.81 m/s (aceleración de la gravedad terrestre)
-'''
-from math import sin, cos, tan, pi
+
 # Entradas
 Largo: float
 Alto: float
@@ -61,7 +60,8 @@ BandMayor: bool
 Xmax: float
 Y: float
 XmaxMayor: float
-
+'''
+from math import sin, cos, tan, pi
 # Registro de Archivos
 arch1 = open("Stadium.txt", 'r')
 arch2 = open("Jonrones.txt", 'w')
