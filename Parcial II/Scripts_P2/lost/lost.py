@@ -24,9 +24,6 @@ Consideraciones:
 • El participante que viajara a USA es el que envió la mayor cantidad de
 mensajes.
 
-'''
-
-
 # LOST
 # Lista de listas    Interna: conocida    Externa: desconocida
 
@@ -54,7 +51,7 @@ bandera_primero: bool  # primer participante de 23 en enviar mas de 10 mensajes
 acumulador_mensajes_por_pais: int  # promedio de mensajes por cada pais
 bandera_pais: int  # pais con menor cantidad de participantes
 menor_cantidad_participantes: int  # menor cantidad de participantes
-
+'''
 
 # Apertura de archivo
 arch1 = open("fanaticos.txt", 'r')
