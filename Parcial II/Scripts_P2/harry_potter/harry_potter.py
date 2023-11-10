@@ -11,7 +11,6 @@ a. Número del ticket y fila de la primera persona que compró el primer
 ticket en un asiento de la columna F y cuantos después de él se
 sentaron en la misma fila.
 b. Total de BsF recaudado por venta de tickets.
-'''
 
 # Variables de entrada
 ticket: int
@@ -24,6 +23,8 @@ contadorf: int
 total: float
 # Variables de proceso
 primero: bool  # bandera para determinar el primero en sentarse en la columna F
+'''
+
 # Apertura del archivo
 arch = open("Datos.txt", 'r')
 primero = True
