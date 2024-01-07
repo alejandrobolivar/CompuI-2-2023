@@ -108,8 +108,8 @@ Si tienes dudas con el nombre del directorio de algún lenguaje, intenta consult
 ![GitHub Followers](https://img.shields.io/github/followers/alejandrobolivar?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/alejandrobolivar?style=social)
 
-Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
+Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@alejandrobolivar](https://alejandrobolivar.github.io/home/)**.
 
 ### En mi perfil de GitHub tienes más información
 
-[![Web](https://img.shields.io/badge/GitHub-MoureDev-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mouredev)
+[![Web](https://img.shields.io/badge/GitHub-alejandrobolivar-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/alejandrobolivar)
