@@ -5,7 +5,7 @@
 
 ## Información importante
 
-* **¿Quieres participar?** Te lo explico en la sección **[¿Cómo puedo participar?](https://github.com/alejandrobolivar/retos-programacion-2024#c%C3%B3mo-puedo-participar)** en este mismo documento.
+* **¿Quieres participar?** Te lo explico en la sección **[¿Cómo puedo participar?](https://github.com/alejandrobolivar/CompuI-2-2023/blob/main/retos-programacion-2024#c%C3%B3mo-puedo-participar)** en este mismo documento.
 * Los retos no tienen relación entre ellos. Puedes resolverlos de manera totalmente independiente. Simplemente revisa su nivel de dificultad.
 * Una vez se haya cumplido la semana de publicación del reto, podrás consultar mi corrección y las de la comunidad.
 
