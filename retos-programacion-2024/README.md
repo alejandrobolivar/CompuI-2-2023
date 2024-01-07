@@ -15,10 +15,6 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 
 * **#0** - 26/12/22 | Fácil | [`EL FAMOSO "FIZZ BUZZ"`](./Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BFácil%5D/ejercicio.md) | Correcciones: [[EN VÍDEO](https://youtu.be/2iW4NCzOAxs)] [[MI SOLUCIÓN](./Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BFácil%5D/python/mouredev.py)] [[COMUNIDAD](./Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BFácil%5D)]
 
-> **[[NUEVO] Retos de programación 2024](https://github.com/alejandrobolivar/roadmap-retos-programacion)**
-> 
-> [![Retos Semanales](https://img.shields.io/github/stars/alejandrobolivar/roadmap-retos-programacion?label=Retos%20Programación%202024&style=social)](https://github.com/mouredev/roadmap-retos-programacion)
-
 *Puedes ejecutar el archivo [language_stats.py](./Retos/language_stats.py) para visualizar las estadísticas de uso de cada lenguaje.*
 
 ## ¿Cómo puedo participar?
