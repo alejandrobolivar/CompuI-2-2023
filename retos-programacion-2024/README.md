@@ -1,7 +1,7 @@
 ![https://retosdeprogramacion.com/semanales2023](./Images/header.jpg)
 
 # Retos de programación semanales 2023
-### Proyecto de retos semanales de la comunidad **[MoureDev](https://moure.dev)** para practicar lógica de programación utilizando cualquier lenguaje.
+### Proyecto de retos semanales de la comunidad para practicar lógica de programación utilizando cualquier lenguaje.
 > #### Tienes toda la información en **[retosdeprogramacion.com/semanales2023](https://retosdeprogramacion.com/semanales2023)**
 
 ## Información importante
