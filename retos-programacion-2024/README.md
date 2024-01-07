@@ -1,8 +1,7 @@
 ![https://retosdeprogramacion.com/semanales2023](./Images/header.jpg)
 
-# Retos de programación semanales 2023
-### Proyecto de retos semanales de la comunidad para practicar lógica de programación utilizando cualquier lenguaje.
-> #### Tienes toda la información en **[retosdeprogramacion.com/semanales2024](https://retosdeprogramacion.com/semanales2024)**
+# Retos de programación semanales 2024
+### Proyecto de retos semanales de la comunidad para practicar lógica de programación en Python.
 
 ## Información importante
 
