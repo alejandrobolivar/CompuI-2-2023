@@ -31,12 +31,16 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
 
+##  Hola, mi nombre es Alejandro Bolívar.
+### Ingeniero Mecánico. Magister en Ingeniería Mecánica
+### Profesor de Computación
+
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxPD7bsocoAMq8Dj18kmGyQ?style=social)](https://youtube.com/@alejandrobolivar6984?sub_confirmation=1)
 [![Twitter Follow](https://img.shields.io/twitter/follow/profealejandrob?style=social)](https://twitter.com/profealejandrob)
 ![GitHub Followers](https://img.shields.io/github/followers/alejandrobolivar?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/alejandrobolivar?style=social)
 
-Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@alejandrobolivar](https://alejandrobolivar.github.io/home/)**.
+Soy Ingeniero Mecánico desde 1997 y Magister en Ingeniería Mecánica desde 2001. Desde 1996 mi trabajo está orientado al desarrollo de programas en computadora de aplicación en la ingeniería y a la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@alejandrobolivar](https://alejandrobolivar.github.io/home/)**.
 
 ### En mi perfil de GitHub tienes más información
 
