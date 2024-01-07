@@ -104,7 +104,7 @@ Si tienes dudas con el nombre del directorio de algún lenguaje, intenta consult
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
 
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxPD7bsocoAMq8Dj18kmGyQ?style=social)](https://youtube.com/@alejandrobolivar6984?sub_confirmation=1)
-[![Twitter Follow](https://img.shields.io/twitter/follow/mouredev?style=social)](https://twitter.com/profealejandrob)
+[![Twitter Follow](https://img.shields.io/twitter/follow/profealejandrob?style=social)](https://twitter.com/profealejandrob)
 ![GitHub Followers](https://img.shields.io/github/followers/alejandrobolivar?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/alejandrobolivar?style=social)
 
