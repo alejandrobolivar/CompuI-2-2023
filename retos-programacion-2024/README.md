@@ -15,8 +15,6 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 
 * **#0** - 26/12/22 | Fácil | [`EL FAMOSO "FIZZ BUZZ"`](./Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BFácil%5D/ejercicio.md) | Correcciones: 
 
-*Puedes ejecutar el archivo [language_stats.py](./Retos/language_stats.py) para visualizar las estadísticas de uso de cada lenguaje.*
-
 ## ¿Cómo puedo participar?
 
 **Haz un [FORK](https://github.com/alejandroboliva/retos-programacion-2024/fork) del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
