@@ -13,7 +13,7 @@
 
 Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y enunciado del ejercicio. En su directorio podrás consultar las distintas correcciones del ejercicio agrupadas por lenguaje de programación.
 
-* **#1** - 02/01/23 | Fácil | [`COUNTER STRIKE"`](./Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BFácil%5D/ejercicio.md) | Correcciones: [[MI SOLUCIÓN](./Retos/Reto%20%231%20-%20COUNTER%20STRIKE%20%5BF%C3%A1cil%5D/alejandrobolivar.py)]
+* **#1** - 02/01/23 | Fácil | [`COUNTER STRIKE`](./Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BFácil%5D/ejercicio.md) | Correcciones: [[MI SOLUCIÓN](./Retos/Reto%20%231%20-%20COUNTER%20STRIKE%20%5BF%C3%A1cil%5D/alejandrobolivar.py)]
 
 ## ¿Cómo puedo participar?
 
