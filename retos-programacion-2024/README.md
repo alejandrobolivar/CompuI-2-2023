@@ -88,15 +88,6 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 4. Puedes proponer Pull Request con propuestas o correcciones sobre ejercicios del resto de la comunidad si estos poseen errores. De esta manera colaboraremos para crear un repositorio cada vez más valioso.
 5. Si se te solicita un cambio/corrección en una Pull Request, y al cabo de 2 semanas no se muestra nueva actividad, se cerrará esa petición para mantener el repositorio limpio. Por supuesto, puedes volver a enviar la Pull Request cuando quieras.
 
-## Aclaraciones
-
-Si tienes dudas con el nombre del directorio de algún lenguaje, intenta consultar el nombre que se ha empleado en ejercicios anteriores. Algunos ejemplos que puedes llegar a dudar:
-    
-* c#, no csharp
-* c++, no cplusplus
-* go, no golang
-* javascript, no js
-	
 #### Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub Star". ¡Gracias!
 
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
