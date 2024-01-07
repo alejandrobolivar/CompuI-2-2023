@@ -13,6 +13,4 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 ```
-#### Tienes toda la información extendida sobre los retos de programación semanales en **[retosdeprogramacion.com/semanales2024](https://retosdeprogramacion.com/semanales2023)**.
-
 Sigue las **[instrucciones](../../README.md)**, consulta las correcciones y aporta la tuya propia utilizando el lenguaje de programación que quieras.
