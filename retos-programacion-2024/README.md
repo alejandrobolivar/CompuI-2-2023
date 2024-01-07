@@ -14,7 +14,7 @@
 Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y enunciado del ejercicio. En su directorio podrás consultar las distintas correcciones del ejercicio agrupadas por lenguaje de programación.
 
 * **#0** - 26/12/22 | Fácil | [`EL FAMOSO "FIZZ BUZZ"`](./Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BFácil%5D/ejercicio.md) | Correcciones:
-* **#1** - 02/01/23 | Fácil | [`COUNTER STRIKE"`](./Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BFácil%5D/ejercicio.md) | Correcciones: [[MI SOLUCIÓN](./Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BFácil%5D/python/alejandrobolivar.py)]
+* **#1** - 02/01/23 | Fácil | [`COUNTER STRIKE"`](./Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BFácil%5D/ejercicio.md) | Correcciones: [[MI SOLUCIÓN](./Retos/Reto%20%231%20-%20COUNTER%20STRIKE%20/alejandrobolivar.py)]
 
 ## ¿Cómo puedo participar?
 
