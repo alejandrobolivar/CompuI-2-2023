@@ -1,4 +1,4 @@
-![https://retosdeprogramacion.com/semanales2023](./Images/header.jpg)
+
 
 # Retos de programación semanales 2024
 ### Proyecto de retos semanales de la comunidad para practicar lógica de programación en Python.
