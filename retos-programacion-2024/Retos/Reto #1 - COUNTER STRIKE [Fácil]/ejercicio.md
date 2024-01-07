@@ -1,5 +1,5 @@
-# Reto #0: EL FAMOSO "FIZZ BUZZ"
-#### Dificultad: Fácil | Publicación: 26/12/22 | Corrección: 02/01/23
+# Reto #1: COUNTER STRIKE
+#### Dificultad: Fácil | Publicación: 07/01/24 | Corrección: 07/01/24
 
 ## Enunciado
 
