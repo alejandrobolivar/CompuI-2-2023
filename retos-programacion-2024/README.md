@@ -33,7 +33,7 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 ### Ingeniero Mecánico. Magister en Ingeniería Mecánica
 ### Profesor de Computación
 
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxPD7bsocoAMq8Dj18kmGyQ?style=social)](https://youtube.com/@alejandrobolivar6984?sub_confirmation=1)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC9Vrcs-PhJh9sguq-8R7x1g?style=social)](https://youtube.com/@alejandrobolivar6984?sub_confirmation=1)
 [![Twitter Follow](https://img.shields.io/twitter/follow/profealejandrob?style=social)](https://twitter.com/profealejandrob)
 ![GitHub Followers](https://img.shields.io/github/followers/alejandrobolivar?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/alejandrobolivar?style=social)
