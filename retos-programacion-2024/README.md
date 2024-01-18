@@ -17,7 +17,7 @@ Aquí encontrarás el listado de retos, su fecha de publicación, dificultad y e
 
 ## ¿Cómo puedo participar?
 
-**Haz un [FORK](https://github.com/alejandrobolivar/CompuI-2-2023/tree/main/retos-programacion-2024/fork) del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
+**Haz un [FORK](https://github.com/alejandrobolivar/CompuI-2-2023/retos-programacion-2024/fork) del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
 
 1. En el proyecto tienes un directorio para cada ejercicio. Dentro de cada directorio encontrarás un fichero llamado **ejercicio.md** con el enunciado de cada reto.
 2. Si quieres compartir tu propia solución de un ejercicio con la comunidad, crea un fichero de código con tu nombre y extensión, y realiza una [**PULL REQUEST**](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) contra el repositorio.
